@@ -11,10 +11,11 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h6 class="caption fw-lighter">List of all transactions</h6>
-	<table class="table font-monospace text-end" >
-		<thead>
-			<tr class="table-dark">
+	<caption>List of all transcations</caption>
+	<div class="table-responsive">
+	<table class="table table-hover font-monospace" >
+		<thead class="head bg-dark text-white">
+			<tr>
 				<th scope="col">#</th>
 				<th scope="col">From</th>
 				<th scope="col">To</th>
@@ -23,30 +24,30 @@
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row" class="one fw-bold">1</th>
-				<td>Mark</td>
-				<td>Otto</td>
-				<td>1000</td>
+				<th scope="row">1</th>
+				<td id="total">Mark</td>
+				<td id="total">Otto</td>
+				<td id="total">1000</td>
 			</tr>
 			<tr>
-				<th scope="row" class="two fw-bold">2</th>
-				<td>Jacob</td>
-				<td>Thornton</td>
-				<td>1500</td>
+				<th scope="row">2</th>
+				<td id="total">Jacob</td>
+				<td id="total">Thornton</td>
+				<td id="total">1500</td>
 			</tr>
 			<tr>
-				<th scope="row" class="three fw-bold">3</th>
-				<td>Jack</td>
-				<td>John</td>
-				<td>2000</td>
+				<th scope="row">3</th>
+				<td id="total">Jack</td>
+				<td id="total">John</td>
+				<td id="total">2000</td>
 			</tr>
+	        
 			<tr>
-				<th scope="row"></th>
-				<td colspan="2"></td>
-				<td class="total fw-bold">Total 4000</td>
+				<td id="total" colspan="3" class="total text-end">Total 40000</td>
 			</tr>
 		</tbody>
 	</table>
+	</div>
 	<script type="text/javascript" src="./script.js">
 	</script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
